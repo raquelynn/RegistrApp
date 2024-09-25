@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <img id="logo" src="assets/icon/logo.png" class="logo" alt="Logo" />  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card id="card1">
+    <ion-card-header>
+      <ion-card-subtitle>Bienvenida</ion-card-subtitle>
+      <ion-card-title>{{ nombreEstudiante }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      
+      <p>Carrera: {{ carreraEstudiante }}<br>
+        Correo: {{ correoEstudiante }}</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card id="card2">
+    <ion-card-header>
+      <ion-card-title>Registrar asistencia</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Escanea el código Qr para confirmar tu asistencia a clases.</p>
+      <ion-button class="btn" >Escanear</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
